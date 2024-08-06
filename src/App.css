@@ -78,9 +78,10 @@
 @media only screen and (max-width:599px){
   .dashboard-wrapper .left-wrap{flex: 0 0 100%; max-width: 100%; margin-bottom: 10px;}
   .dashboard-wrapper .right-wrap{flex: 0 0 100%; max-width: 100%; margin-left: 0;}
-  .search-bar{max-width: 100px;}
+  .search-bar{max-width: 96px;}
+  .header-right .icon-wrap {margin-left: 5px;}
 }
-@media only screen and (max-width:378px){
+@media only screen and (max-width:349px){
   .search-wrap{display: none;}
 }
 
