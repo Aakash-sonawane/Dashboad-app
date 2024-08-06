@@ -10,7 +10,7 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import moment from 'moment';
-import data from '../data'; // Import the data you provided
+import data from '../data';
 
 // Register the required components
 ChartJS.register(
@@ -110,7 +110,7 @@ const ActivityChart = () => {
         data={chartData}
         options={{
           responsive: true,
-          maintainAspectRatio: false, // Add this line
+          maintainAspectRatio: false, 
           scales: {
             x: {
               grid: {

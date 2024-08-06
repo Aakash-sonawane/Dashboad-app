@@ -60,7 +60,7 @@ export default function Dashboard({data}) {
                                     <TotalInfo
                                     title={'Net Profit'}
                                     quantity={'$ 6759.25'}
-                                    earnings={{status:false,value:3}}
+                                    earnings={{status:true,value:3}}
                                     icon='donut'
                                     />
                                 </li>

@@ -47,14 +47,14 @@
 .top-wrap .card .cart-icon svg path{fill: #2a73df;}
 
 .top-wrap .right-wrap .card{display: flex; width: auto; flex-direction: row-reverse; justify-content: space-between; margin: 0;}
-.top-wrap .right-wrap .card .title{margin-bottom: 13px;}
-.top-wrap .right-wrap .card .icon-wrap{position: relative; width: 136px; height: 96px;  background: none;}
+.top-wrap .right-wrap .card .title{margin-bottom: 8px;}
+.top-wrap .right-wrap .card .icon-wrap{position: relative; width: 125px; height: 73px;  background: none;}
 .top-wrap .right-wrap .card .qnt-desc{font-size: 24px;}
 .top-wrap .right-wrap .card .icon-wrap svg{width: 100%; height: 100%;}
 .top-wrap .right-wrap .indicator {left: 10px; right: unset;}
-.top-wrap .right-wrap .card .icon-wrap .inside{    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 16px; font-weight: bold;}
-.inside .text-content{font-size: 7px; max-width: 34px; text-align: center; color: #b9b7b7;}
-.icon-wrap .btm-text{font-size: 7px; position: absolute; bottom: -4px; text-align: center; width: 96%; color: #b9b7b7;}
+.top-wrap .right-wrap .card .icon-wrap .inside{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 14px; font-weight: bold;}
+.inside .text-content{font-size: 6px; max-width: 34px; text-align: center; color: #b9b7b7;}
+.icon-wrap .btm-text{font-size: 7px; position: absolute; bottom: -7px; text-align: center; width: 96%; color: #b9b7b7;}
 
 .top-wrap .icon-wrap.pos-gre{background: #028b348e;}
 .top-wrap .card .icon-wrap.pos-gre svg path{fill: #4ce311;}
@@ -131,6 +131,11 @@
 @media only screen and (max-width:768px) {
   .dashboard-wrapper .bottom-wrap .left-wrap{flex: 0 0 100%; max-width: 100%; margin-bottom: 10px;}
   .dashboard-wrapper .bottom-wrap .right-wrap{flex: 0 0 100%; max-width: 100%; margin-left:0;}
+}
+
+@media only screen and (max-width:499px) {
+  .bottom-wrap .left-wrap td,th { max-width: 60px; overflow: hidden; font-size: 10px; line-height: 13px; max-height: 26px; }
+  
 }
 
 
